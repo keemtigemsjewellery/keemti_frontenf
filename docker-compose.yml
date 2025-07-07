@@ -1,0 +1,7 @@
+version: '3'
+services:
+  digiastro_jewellery_platform_kimti:
+    build:
+      context: ./  # Path to the directory containing your Dockerfile
+    ports:
+      - "5001:5000"  # Map port 80 inside the container to port 3000 on the host
